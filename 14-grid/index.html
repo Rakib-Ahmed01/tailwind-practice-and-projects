@@ -9,12 +9,24 @@
   </head>
   <body>
     <!-- Grid cols and rows -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 w-full h-96 border">
+      <div class="bg-lime-400"></div>
+      <div class="bg-lime-400"></div>
+      <div class="bg-lime-400"></div>
+      <div class="bg-lime-400"></div>
+    </div>
 
     <!-- Col and row span -->
+    <div class="grid h-96 border my-5 grid-cols-12 grid-rows-3 gap-2">
+      <div class="bg-emerald-300 col-span-12"></div>
+      <div class="bg-sky-300 col-span-9"></div>
+      <div class="bg-lime-300 col-span-3 row-span-2"></div>
+      <div class="bg-teal-300 col-span-9"></div>
+    </div>
   </body>
 </html>
 
-<!-- 
+<!--
   Grid Template Columns
   grid-cols-1	    grid-template-columns: repeat(1, minmax(0, 1fr));
   grid-cols-2	    grid-template-columns: repeat(2, minmax(0, 1fr));
